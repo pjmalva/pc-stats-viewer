@@ -1,0 +1,8 @@
+{
+    "mid": "asdawrr12312",
+    "name": "test-pc",
+    "server": "https://msv.mitrix.com.br/",
+    "disks": [
+        "C:", "D:"
+    ]
+}
