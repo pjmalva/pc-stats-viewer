@@ -3,6 +3,6 @@
     "name": "test-pc",
     "server": "https://msv.mitrix.com.br/",
     "disks": [
-        "C:", "D:"
+        "/"
     ]
 }

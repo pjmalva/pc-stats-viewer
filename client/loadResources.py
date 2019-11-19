@@ -3,7 +3,7 @@ import psutil
 import json
 import datetime
 
-config = open( os.getcwd() +  '/mid.json', 'r' )
+config = open( os.getcwd() +  '/config/mid.json', 'r' )
 config_obj = json.load( config )
 
 all_proc = []
@@ -69,5 +69,5 @@ pc_info = {
     }
 }
 
-with open( 'send.json', 'w' ) as rep:
+with open( 'config/send.json', 'w' ) as rep:
     json.dump( pc_info, rep )
