@@ -8,34 +8,10 @@ let router = new Router({
   base: process.env.BASE_URL,
   routes: [
     {
-      path: '/',
+      path: '/viewer',
       name: 'site-home',
-      component: () => import('./../views/Site/Home.vue'),
+      component: () => import('./../views/Viewer'),
     },
-
-    {
-      path: '/admin/',
-      name: 'admin',
-      component: () => import('./../views/Admin/Home.vue'),
-      meta: {    requiresAuth: true   }
-    },
-
-    {
-      path: '/login',
-      name: 'login',
-      component: () => import('./../views/Admin/Auth/Login.vue')
-    },
-    {
-      path: '/register',
-      name: 'register',
-      component: () => import('./../views/Admin/Auth/Register.vue')
-    },
-    {
-      path: '/logout',
-      name: 'logout',
-      component: () => import('./../views/Admin/Auth/Logout.vue'),
-      meta: {    requiresAuth: true   }
-    }
   ]
 })
 

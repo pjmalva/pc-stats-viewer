@@ -1,0 +1,10 @@
+{
+    "mID": "1061e316-5867-48e7-a8cc-716f127c560e",
+    "cID": "5fca6fe2-bdfb-4499-ba90-03e11f4231a8",
+    "interval": 5,
+    "save_file": true,
+    "server": "http://localhost:8000/api/info/update",
+    "disks": [
+        "/"
+    ]
+}

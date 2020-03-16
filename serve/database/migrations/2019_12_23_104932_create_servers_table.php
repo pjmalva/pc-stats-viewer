@@ -16,7 +16,7 @@ class CreateServersTable extends Migration
         Schema::create('servers', function (Blueprint $table) {
             $table->bigIncrements('id');
 
-            $table->uuid('mID')->nullable();
+            $table->uuid('cID')->nullable();
 
             $table->unsignedBigInteger('company_id');
             $table->foreign('company_id')->references('id')->on('companies');
